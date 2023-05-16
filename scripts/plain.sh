@@ -28,13 +28,13 @@ function plain() {
   local white='#c0caf5'
 
   ## icons
-  local graph_icon=""
-  local lan_icon=""
-  local wan_icon="慎"
+  local graph_icon=''
+  local lan_icon='󰌗'
+  local wan_icon='󰖈 '
   local server_icon=""
   local layer_icon=''
   local layer_active_icon=''
-  local grid_icon='ﱖ'
+  local grid_icon='󰝘'
 
   ##
   ## functions
