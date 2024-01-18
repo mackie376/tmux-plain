@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
 function get_wan_ip() {
-  local tmp_file="${HOME}/.config/tmux/wan_ip.txt"
+  local tmp_file="${HOME}/.cache/tmux/wan_ip.txt"
   local wan_ip
   local last_update
+
+  mkdir -p "${HOME}/.cache/tmux"
 
   if [[ -f "$tmp_file" ]]; then
     case $(uname -s) in
